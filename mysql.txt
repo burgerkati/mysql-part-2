@@ -2,7 +2,7 @@ mysql-part-2 exercises
 
 exercice 1
 
-SHOW DATABASE webDevelopment;
+SHOW DATABASES;
 USE webDevelopment;
 CREATE TABLE `languages` (`id` INT NOT NULL PRIMARY KEY, `language` VARCHAR(30));
 
