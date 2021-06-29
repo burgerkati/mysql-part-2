@@ -1,0 +1,27 @@
+mysql-part-2 exercises
+
+exercice 1
+
+SHOW DATABASE webDevelopment;
+USE webDevelopment;
+CREATE TABLE `languages` (`id` INT NOT NULL PRIMARY KEY, `language` VARCHAR(30));
+
+exercice 2
+
+CREATE TABLE `tools` (`id` INT NOT NULL PRIMARY KEY, `tool` VARCHAR(30));
+
+exercice 3
+
+CREATE TABLE `frameworks` (`id` INT NOT NULL PRIMARY KEY, `framework` VARCHAR(30));
+
+exercice 4
+
+CREATE TABLE `libraries` (`id` INT NOT NULL PRIMARY KEY, `library` VARCHAR(30));
+
+exercice 5
+
+CREATE TABLE `ide` (`id` INT NOT NULL PRIMARY KEY, `library` VARCHAR(30));
+
+exercice 6
+
+CREATE TABLE IF NOT EXIST `languages` (`id` INT NOT NULL PRIMARY KEY, `language` VARCHAR(30));
